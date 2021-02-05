@@ -1,6 +1,6 @@
 let started = false;
 
-$(document).click(function() {
+$("h1").click(function() {
   if (!started) {
     nextSequence();
     started = true;
@@ -55,9 +55,9 @@ function wrongAnswer() {
   }, 100);
   gamePattern = [];
   playSound("wrong");
-  $("h1").text("Game Over! Press any key to start again.");
+  $("h1").text("Game Over! Press here key to START again.");
   started = false;
-  $(document).click(function() {
+  $("h1").click(function() {
     if (!started) {
       nextSequence();
       started = true;

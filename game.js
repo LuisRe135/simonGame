@@ -1,17 +1,16 @@
 let started = false;
-$(document).keydown(function() {
-  if (!started) {
-    nextSequence();
-    started = true;
-  }
-});
-
 $(document).click(function() {
   if (!started) {
     nextSequence();
     started = true;
   }
 });
+// $(document).keydown(function() {
+//   if (!started) {
+//     nextSequence();
+//     started = true;
+//   }
+// });
 
 let buttonColours = ["red", "green", "yellow", "blue"];
 let gamePattern = [];

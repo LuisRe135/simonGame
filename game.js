@@ -1,10 +1,10 @@
 let started = false;
-$(document).click(function() {
-  if (!started) {
-    nextSequence();
-    started = true;
-  }
-});
+// $(document).click(function() {
+//   if (!started) {
+//     nextSequence();
+//     started = true;
+//   }
+// });
 // $(document).keydown(function() {
 //   if (!started) {
 //     nextSequence();
